@@ -1,0 +1,19 @@
+/* styles.css */
+.fixed-card {
+    width: 100%; /* Full width of the column */
+    height: 350px; /* Fixed height for cards */
+    display: flex;
+    flex-direction: column; /* Align content vertically */
+    justify-content: space-between; /* Space out content */
+    overflow: hidden; /* Prevent overflow if content is large */
+  }
+  
+  .fixed-card img {
+    height: 210px; /* Set a fixed height for the image */
+    object-fit: cover; /* Crop image to fit without distortion */
+  }
+  
+  .fixed-card .card-body {
+    flex-grow: 1;
+    height: 150px; /* Allow body to expand within the card */
+  }
